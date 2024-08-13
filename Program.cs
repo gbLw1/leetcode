@@ -1,3 +1,3 @@
 ﻿using leetcode.Problems;
 
-ValidAnagram.Test();
+ReverseString.Test();
