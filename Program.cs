@@ -1,3 +1,3 @@
 ﻿using leetcode.Problems;
 
-LongestCommonPrefix.Test();
+PowerOfThree.Test();
