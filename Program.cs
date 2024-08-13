@@ -1,3 +1,3 @@
 ﻿using leetcode.Problems;
 
-FizzBuzz.Test();
+TwoSum.Test();
