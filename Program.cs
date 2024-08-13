@@ -1,3 +1,3 @@
 ﻿using leetcode.Problems;
 
-PowerOfThree.Test();
+FibonacciNumber.Test();
