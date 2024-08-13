@@ -1,3 +1,3 @@
 ﻿using leetcode.Problems;
 
-ValidPalindrome.Test();
+LongestCommonPrefix.Test();
