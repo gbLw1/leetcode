@@ -1,3 +1,3 @@
 ﻿using leetcode.Problems;
 
-TwoSum.Test();
+ValidAnagram.Test();
