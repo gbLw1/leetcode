@@ -1,3 +1,3 @@
 ﻿using leetcode.Problems;
 
-ReverseString.Test();
+ValidPalindrome.Test();
