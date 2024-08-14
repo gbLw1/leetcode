@@ -9,8 +9,18 @@ public class FibonacciNumber
     /// <returns></returns>
     private static int Solution(int n)
     {
-        if (n <= 1) return n;
-        return Solution(n-1) + Solution(n-2);
+        if (n == 0) return 0;
+        if (n == 1) return 1;
+
+        int[] sum = new int[n + 1]; // sum[n] is the sum of all
+        sum[0] = 0;
+        sum[1] = 1;
+        for (int i = 2; i <= n; i++)
+        {
+            sum[i] = sum[i - 1] + sum[i - 2];
+        }
+
+        return sum[n];
     }
 
     public static void Test()
