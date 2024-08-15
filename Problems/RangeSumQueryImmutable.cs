@@ -3,25 +3,25 @@ namespace leetcode.Problems;
 public static class RangeSumQueryImmutable
 {
     private class NumArray {
-        private readonly int[] preSum = [];
+        private readonly int[] _preSum = [];
 
         public NumArray(int[] nums) {
-            preSum = new int[nums.Length];
+            _preSum = new int[nums.Length];
 
             for (int i = 0; i < nums.Length; ++i) {
                 if (i == 0) {
-                    preSum[i] = nums[i];
+                    _preSum[i] = nums[i];
                     continue;
                 }
-                preSum[i] = preSum[i-1] + nums[i];
+                _preSum[i] = _preSum[i-1] + nums[i];
             }
         }
         
         public int SumRange(int left, int right) {
             if (left == 0) {
-                return preSum[right];
+                return _preSum[right];
             }
-            return preSum[right] - preSum[left-1];
+            return _preSum[right] - _preSum[left-1];
         }
     }
     /**
