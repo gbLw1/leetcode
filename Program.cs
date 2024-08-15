@@ -1,3 +1,3 @@
 ﻿using leetcode.Problems;
 
-FibonacciNumber.Test();
+RangeSumQueryImmutable.Test();
